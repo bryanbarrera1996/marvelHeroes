@@ -6,6 +6,11 @@
         <entry key="..\:/Users/Asus/AndroidStudioProjects/bd/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/bd/app/src/main/res/layout/activity_main2.xml" value="0.2604166666666667" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/bd/app/src/main/res/layout/fragment_sesion.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/bryan/AndroidStudioProjects/app_bd_remote/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.113" />
+        <entry key="..\:/Users/bryan/AndroidStudioProjects/app_bd_remote/app/src/main/res/drawable/ic_launcher_background.xml" value="0.113" />
+        <entry key="..\:/Users/bryan/AndroidStudioProjects/app_bd_remote/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/bryan/AndroidStudioProjects/app_bd_remote/app/src/main/res/layout/activity_main2.xml" value="0.22" />
+        <entry key="..\:/Users/bryan/AndroidStudioProjects/app_bd_remote/app/src/main/res/layout/fragment_sesion.xml" value="0.33" />
       </map>
     </option>
   </component>
@@ -14,5 +19,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.22" />
+      </ProjectState>
+    </option>
   </component>
 </project>
