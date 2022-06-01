@@ -22,7 +22,7 @@ import com.android.volley.toolbox.Volley;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-
+import android.util.Base64;
 //import com.android.volley.Response;
 
 public class SesionFragment extends Fragment implements Response.Listener<JSONObject>, Response.ErrorListener {
@@ -82,8 +82,15 @@ public class SesionFragment extends Fragment implements Response.Listener<JSONOb
 
 
     void startSession(){
+        String pass = txtPwd.getText().toString();
+        // Sending side
+        byte[] data = pass.getBytes();
+        String passEncode = Base64.encodeToString(data, Base64.DEFAULT);
+
+
+
         String url ="https://myappucn2022.000webhostapp.com/session.php?user="+txtUser.getText().toString()+
-          "&pwd="+txtPwd.getText().toString();
+          "&pwd="+passEncode;
         jrq = new JsonObjectRequest(Request.Method.GET,
                 url,
                 (String) null,
